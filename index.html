@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rougemont Advisory | Growth Advisory for Climate Tech</title>
+    <meta name="description" content="Institutional-quality strategic support, accessible to early-stage climate tech startups. We democratize expertise that accelerates climate innovation.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">ROUGEMONT</a>
+            </div>
+            <div class="nav-links">
+                <a href="#services">Services</a>
+                <a href="#approach">Approach</a>
+                <a href="#about">About</a>
+                <a href="#contact" class="nav-cta">Contact</a>
+            </div>
+            <div class="nav-mobile-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Video/Interactive Background -->
+    <section class="hero" id="home">
+        <div class="hero-background">
+            <!-- Animated gradient background that simulates video movement -->
+            <div class="hero-gradient-layer layer-1"></div>
+            <div class="hero-gradient-layer layer-2"></div>
+            <div class="hero-gradient-layer layer-3"></div>
+            <!-- Particle overlay for depth -->
+            <canvas id="particleCanvas"></canvas>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="hero-title-line">Accelerating</span>
+                    <span class="hero-title-line">Climate Innovation</span>
+                </h1>
+                <p class="hero-subtitle">Growth Advisory for Climate Tech</p>
+                <p class="hero-description">
+                    Institutional-quality strategic support, accessible to early-stage climate tech startups. 
+                    We democratize expertise that accelerates climate innovation.
+                </p>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn btn-primary">Partner With Us</a>
+                    <a href="#services" class="btn btn-secondary">Our Services</a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Trust Bar -->
+    <section class="trust-bar">
+        <div class="container">
+            <p class="trust-text">Trusted by leading climate tech innovators and investors</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Strategic Services</h2>
+                <p class="section-subtitle">
+                    Comprehensive support designed for climate tech startups at every growth stage
+                </p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="0">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Financial Modeling</h3>
+                    <p class="service-description">
+                        Sophisticated financial models that help you understand unit economics, 
+                        optimize capital allocation, and build compelling investment cases.
+                    </p>
+                    <ul class="service-features">
+                        <li>Revenue & Unit Economics Models</li>
+                        <li>Fundraising Projections</li>
+                        <li>Scenario Analysis</li>
+                        <li>Cap Table Management</li>
+                    </ul>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                            <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                            <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Market Strategy</h3>
+                    <p class="service-description">
+                        Data-driven go-to-market strategies that identify high-value customer segments 
+                        and create sustainable competitive advantages.
+                    </p>
+                    <ul class="service-features">
+                        <li>Market Sizing & Segmentation</li>
+                        <li>Competitive Analysis</li>
+                        <li>Go-to-Market Strategy</li>
+                        <li>Pricing Strategy</li>
+                    </ul>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Growth Analytics</h3>
+                    <p class="service-description">
+                        Turn data into actionable insights with rigorous analytical frameworks 
+                        that drive growth and operational excellence.
+                    </p>
+                    <ul class="service-features">
+                        <li>KPI Framework Development</li>
+                        <li>Growth Metrics Analysis</li>
+                        <li>Customer Cohort Analysis</li>
+                        <li>Performance Dashboards</li>
+                    </ul>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="12" y1="1" x2="12" y2="23"></line>
+                            <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Fundraising Support</h3>
+                    <p class="service-description">
+                        Prepare for successful fundraising rounds with investor-grade materials 
+                        and strategic positioning that resonates with VCs.
+                    </p>
+                    <ul class="service-features">
+                        <li>Investor Deck Development</li>
+                        <li>Data Room Preparation</li>
+                        <li>Financial Narrative</li>
+                        <li>Due Diligence Support</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Approach Section -->
+    <section class="section approach" id="approach">
+        <div class="container">
+            <div class="approach-content">
+                <div class="approach-text">
+                    <h2 class="section-title">Our Approach</h2>
+                    <p class="approach-intro">
+                        The analytical rigor of top consultancies, the climate specialization of boutique advisors, 
+                        and the accessibility of peer support — all in one firm.
+                    </p>
+                    <div class="approach-principles">
+                        <div class="principle" data-aos="fade-right">
+                            <div class="principle-number">01</div>
+                            <div class="principle-content">
+                                <h3>Data-Driven Insights</h3>
+                                <p>Every recommendation grounded in rigorous analysis and evidence. We bring institutional-quality analytical capabilities to early-stage companies.</p>
+                            </div>
+                        </div>
+                        <div class="principle" data-aos="fade-right" data-aos-delay="100">
+                            <div class="principle-number">02</div>
+                            <div class="principle-content">
+                                <h3>Climate Tech Expertise</h3>
+                                <p>Deep specialization in climate technology sectors, market dynamics, and funding landscapes. We understand the unique challenges of climate innovation.</p>
+                            </div>
+                        </div>
+                        <div class="principle" data-aos="fade-right" data-aos-delay="200">
+                            <div class="principle-number">03</div>
+                            <div class="principle-content">
+                                <h3>Founder-Centric Partnership</h3>
+                                <p>We work alongside founders, not above them. Our collaborative approach ensures knowledge transfer and builds internal capabilities.</p>
+                            </div>
+                        </div>
+                        <div class="principle" data-aos="fade-right" data-aos-delay="300">
+                            <div class="principle-number">04</div>
+                            <div class="principle-content">
+                                <h3>Accessible Excellence</h3>
+                                <p>Institutional-quality support without prohibitive costs. We make expert strategic guidance available to startups at every stage.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="approach-visual" data-aos="fade-left">
+                    <div class="stats-container">
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="100">0</div>
+                            <div class="stat-label">Companies Supported</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="500">0</div>
+                            <div class="stat-suffix">M+</div>
+                            <div class="stat-label">Capital Raised</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="25">0</div>
+                            <div class="stat-label">Climate Tech Sectors</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-visual">
+                    <div class="about-image-placeholder">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+                            <circle cx="100" cy="100" r="80" stroke="#0A3D62" stroke-width="2" opacity="0.2"/>
+                            <circle cx="100" cy="100" r="60" stroke="#2E7D32" stroke-width="2" opacity="0.3"/>
+                            <circle cx="100" cy="100" r="40" stroke="#0A3D62" stroke-width="2" opacity="0.4"/>
+                            <path d="M100 20 L100 180 M20 100 L180 100" stroke="#2E7D32" stroke-width="1" opacity="0.2"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h2 class="section-title">About Rougemont</h2>
+                    <p class="about-description">
+                        Founded on the belief that climate innovation shouldn't be constrained by access to strategic expertise, 
+                        Rougemont Advisory bridges the gap between early-stage ambition and institutional-grade support.
+                    </p>
+                    <p class="about-description">
+                        Our team combines deep experience from leading financial institutions, management consultancies, 
+                        and climate tech ventures. We bring the analytical rigor and strategic frameworks of top-tier firms, 
+                        adapted specifically for the unique challenges and opportunities in climate technology.
+                    </p>
+                    <div class="about-values">
+                        <div class="value-item">
+                            <h4>Professional Excellence</h4>
+                            <p>Institutional-quality work in every engagement</p>
+                        </div>
+                        <div class="value-item">
+                            <h4>Climate Impact</h4>
+                            <p>Committed to accelerating climate solutions</p>
+                        </div>
+                        <div class="value-item">
+                            <h4>Accessible Expertise</h4>
+                            <p>Strategic support for startups at every stage</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Ready to Accelerate Your Growth?</h2>
+                <p class="cta-description">
+                    Let's discuss how Rougemont Advisory can support your climate tech venture with 
+                    institutional-quality strategic guidance.
+                </p>
+                <a href="#contact" class="btn btn-primary btn-large">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2 class="section-title">Get in Touch</h2>
+                    <p class="contact-intro">
+                        Whether you're preparing for fundraising, optimizing your growth strategy, or building 
+                        financial models, we're here to help.
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:hello@rougemontadvisory.co.uk">hello@rougemontadvisory.co.uk</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Location</h4>
+                                <p>United Kingdom</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="company">Company</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">ROUGEMONT</div>
+                    <p class="footer-tagline">Growth Advisory for Climate Tech</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Services</h4>
+                        <a href="#services">Financial Modeling</a>
+                        <a href="#services">Market Strategy</a>
+                        <a href="#services">Growth Analytics</a>
+                        <a href="#services">Fundraising Support</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <a href="#about">About</a>
+                        <a href="#approach">Approach</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Rougemont Advisory. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
