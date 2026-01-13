@@ -1526,3 +1526,45 @@ body {
         max-width: 100%;
     }
 }
+
+/* Client Logo Styling */
+.client-logo {
+    max-width: 200px;
+    max-height: 80px;
+    object-fit: contain;
+    filter: brightness(0) invert(1);
+}
+
+.client-logo-area {
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--spacing-md);
+}
+
+/* Hero Video Background */
+.hero-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    z-index: 0;
+    opacity: 0.4;
+}
+
+/* Ensure gradient layers appear above video */
+.hero-gradient-layer,
+.contact-gradient-layer {
+    z-index: 1;
+}
+
+/* Ensure canvas appears above video and gradients */
+#particleCanvas,
+#contactParticleCanvas {
+    z-index: 2;
+}
