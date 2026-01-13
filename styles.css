@@ -1545,25 +1545,22 @@ body {
 /* Hero Video Background */
 .hero-video {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    transform: translate(-50%, -50%);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     z-index: 0;
-    opacity: 0.4;
+    opacity: 0.5;
 }
 
-/* Ensure gradient layers appear above video */
-.hero-gradient-layer,
-.contact-gradient-layer {
-    z-index: 1;
+/* Hide gradient layers when video is present */
+.hero-background video ~ .hero-gradient-layer,
+.contact-hero-background video ~ .contact-gradient-layer {
+    display: none;
 }
 
-/* Ensure canvas appears above video and gradients */
+/* Ensure canvas appears above video */
 #particleCanvas,
 #contactParticleCanvas {
     z-index: 2;
