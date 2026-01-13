@@ -20,13 +20,14 @@
     <nav class="nav" id="nav">
         <div class="nav-container">
             <div class="nav-logo">
-                <a href="#home">ROUGEMONT</a>
+                <a href="index.html">ROUGEMONT</a>
             </div>
             <div class="nav-links">
-                <a href="#about">About</a>
-                <a href="#approach">Approach</a>
-                <a href="#services">Services</a>
-                <a href="#contact" class="nav-cta">Contact</a>
+                <a href="index.html" class="active">Home</a>
+                <a href="team.html">Our Team</a>
+                <a href="track-record.html">Track Record</a>
+                <a href="how-we-help.html">How We Help</a>
+                <a href="contact.html" class="nav-cta">Contact</a>
             </div>
             <div class="nav-mobile-toggle" id="navToggle">
                 <span></span>
@@ -36,14 +37,12 @@
         </div>
     </nav>
 
-    <!-- Hero Section with Video/Interactive Background -->
+    <!-- Hero Section -->
     <section class="hero" id="home">
         <div class="hero-background">
-            <!-- Animated gradient background that simulates video movement -->
             <div class="hero-gradient-layer layer-1"></div>
             <div class="hero-gradient-layer layer-2"></div>
             <div class="hero-gradient-layer layer-3"></div>
-            <!-- Particle overlay for depth -->
             <canvas id="particleCanvas"></canvas>
         </div>
         <div class="hero-content">
@@ -179,69 +178,6 @@
         </div>
     </section>
 
-    <!-- Services Section -->
-    <section class="section services" id="services">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Strategic Services</h2>
-                <p class="section-subtitle">
-                    Comprehensive support designed for climate tech startups at every growth stage
-                </p>
-            </div>
-            <div class="services-grid">
-                <div class="service-card" data-aos="fade-up" data-aos-delay="0">
-                    <h3 class="service-title">Financial Modelling</h3>
-                    <p class="service-description">
-                        Build sophisticated financial models that help you understand unit economics, 
-                        optimize capital allocation, and create compelling investment cases.
-                    </p>
-                </div>
-                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
-                    <h3 class="service-title">Market Sizing & TAM/SAM/SOM Analysis</h3>
-                    <p class="service-description">
-                        Rigorous market analysis to define your total addressable market, serviceable markets, 
-                        and identify the most valuable opportunities for growth.
-                    </p>
-                </div>
-                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
-                    <h3 class="service-title">Competitive Landscape Mapping</h3>
-                    <p class="service-description">
-                        Comprehensive competitive analysis to understand market positioning, identify differentiation 
-                        opportunities, and develop winning strategies.
-                    </p>
-                </div>
-                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
-                    <h3 class="service-title">Investor & Grant Research</h3>
-                    <p class="service-description">
-                        Strategic research to identify aligned investors and grant opportunities, 
-                        helping you access the capital you need to scale.
-                    </p>
-                </div>
-                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
-                    <h3 class="service-title">Client Research</h3>
-                    <p class="service-description">
-                        Deep customer analysis to understand target segments, validate product-market fit, 
-                        and inform strategic decision-making.
-                    </p>
-                </div>
-                <div class="service-card" data-aos="fade-up" data-aos-delay="500">
-                    <h3 class="service-title">Go-to-Market Strategy</h3>
-                    <p class="service-description">
-                        Data-driven strategies that identify high-value customer segments, 
-                        define optimal sales channels, and accelerate market entry.
-                    </p>
-                </div>
-                <div class="service-card" data-aos="fade-up" data-aos-delay="600">
-                    <h3 class="service-title">Pitch Deck Creation & Review</h3>
-                    <p class="service-description">
-                        Develop investor-grade pitch decks that tell your story compellingly, 
-                        backed by rigorous data and strategic narrative.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- CTA Section -->
     <section class="section cta-section">
         <div class="container">
@@ -251,69 +187,7 @@
                     Let's discuss how Rougemont Advisory can support your climate tech venture with 
                     institutional-quality strategic guidance.
                 </p>
-                <a href="#contact" class="btn btn-primary btn-large">Get in Touch</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section class="section contact" id="contact">
-        <div class="container">
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h2 class="section-title">Get in Touch</h2>
-                    <p class="contact-intro">
-                        Whether you're preparing for fundraising, optimizing your growth strategy, or building 
-                        financial models, we're here to help.
-                    </p>
-                    <div class="contact-details">
-                        <div class="contact-item">
-                            <div class="contact-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                                    <polyline points="22,6 12,13 2,6"></polyline>
-                                </svg>
-                            </div>
-                            <div>
-                                <h4>Email</h4>
-                                <a href="mailto:ob467@exeter.ac.uk">ob467@exeter.ac.uk</a>
-                            </div>
-                        </div>
-                        <div class="contact-item">
-                            <div class="contact-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-                                    <circle cx="12" cy="10" r="3"></circle>
-                                </svg>
-                            </div>
-                            <div>
-                                <h4>Location</h4>
-                                <p>United Kingdom</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="contact-form-container">
-                    <form class="contact-form" id="contactForm">
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" id="name" name="name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="company">Company</label>
-                            <input type="text" id="company" name="company">
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message" rows="5" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
-                    </form>
-                </div>
+                <a href="contact.html" class="btn btn-primary btn-large">Get in Touch</a>
             </div>
         </div>
     </section>
@@ -328,19 +202,12 @@
                 </div>
                 <div class="footer-links">
                     <div class="footer-column">
-                        <h4>Services</h4>
-                        <a href="#services">Financial Modelling</a>
-                        <a href="#services">Market Sizing</a>
-                        <a href="#services">Competitive Analysis</a>
-                        <a href="#services">Investor Research</a>
-                        <a href="#services">Go-to-Market Strategy</a>
-                        <a href="#services">Pitch Deck Support</a>
-                    </div>
-                    <div class="footer-column">
                         <h4>Company</h4>
-                        <a href="#about">About</a>
-                        <a href="#approach">Approach</a>
-                        <a href="#contact">Contact</a>
+                        <a href="index.html">Home</a>
+                        <a href="team.html">Our Team</a>
+                        <a href="track-record.html">Track Record</a>
+                        <a href="how-we-help.html">How We Help</a>
+                        <a href="contact.html">Contact</a>
                     </div>
                 </div>
             </div>

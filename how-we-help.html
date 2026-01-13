@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How We Help | Rougemont Advisory</title>
+    <meta name="description" content="Strategic services for climate tech startups.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="alternate icon" href="favicon.ico">
+    
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">ROUGEMONT</a>
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="team.html">Our Team</a>
+                <a href="track-record.html">Track Record</a>
+                <a href="how-we-help.html" class="active">How We Help</a>
+                <a href="contact.html" class="nav-cta">Contact</a>
+            </div>
+            <div class="nav-mobile-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero hero-services">
+        <div class="hero-background">
+            <div class="hero-gradient-layer layer-1"></div>
+            <div class="hero-gradient-layer layer-2"></div>
+            <div class="hero-gradient-layer layer-3"></div>
+            <canvas id="particleCanvas"></canvas>
+        </div>
+        <div class="hero-content">
+            <div class="container-hero">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Strategic services for every stage
+                    </h1>
+                    <p class="hero-subtitle">Comprehensive support designed to accelerate your climate tech venture</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Strategic Services</h2>
+                <p class="section-subtitle">
+                    Institutional-quality analytical support tailored for climate tech startups
+                </p>
+            </div>
+            <div class="services-grid-expanded">
+                <div class="service-card-expanded" data-aos="fade-up" data-aos-delay="0">
+                    <h3 class="service-title">Financial Modelling</h3>
+                    <p class="service-description">
+                        Build sophisticated financial models that provide deep insights into your business economics. 
+                        We create dynamic models covering revenue projections, unit economics, cash flow forecasting, 
+                        and scenario analysis. Our models help you understand the key drivers of your business, 
+                        optimize capital allocation, and build compelling investment cases that resonate with VCs. 
+                        We specialize in climate tech-specific metrics and can model complex revenue streams 
+                        including carbon credits, regulatory incentives, and B2B2C structures.
+                    </p>
+                </div>
+                
+                <div class="service-card-expanded" data-aos="fade-up" data-aos-delay="100">
+                    <h3 class="service-title">Market Sizing & TAM/SAM/SOM Analysis</h3>
+                    <p class="service-description">
+                        Rigorous, data-driven market analysis to define your opportunity and validate your strategy. 
+                        We conduct comprehensive TAM (Total Addressable Market), SAM (Serviceable Available Market), 
+                        and SOM (Serviceable Obtainable Market) analysis using multiple methodologies including 
+                        top-down, bottom-up, and value-theory approaches. Our analysis identifies the most valuable 
+                        market segments, quantifies market growth drivers, and provides the robust market sizing 
+                        that investors expect. We have deep expertise in emerging climate tech markets where 
+                        traditional data sources are limited.
+                    </p>
+                </div>
+                
+                <div class="service-card-expanded" data-aos="fade-up" data-aos-delay="200">
+                    <h3 class="service-title">Competitive Landscape Mapping</h3>
+                    <p class="service-description">
+                        Comprehensive competitive intelligence to inform your strategic positioning and identify 
+                        opportunities for differentiation. We map both direct and indirect competitors, analyze 
+                        their business models, funding history, go-to-market strategies, and competitive advantages. 
+                        Our analysis reveals white space opportunities, potential partnership targets, and threats 
+                        on the horizon. We help you articulate a clear, defensible competitive position that 
+                        resonates with customers and investors. Our climate tech expertise means we understand 
+                        the unique competitive dynamics in cleantech markets.
+                    </p>
+                </div>
+                
+                <div class="service-card-expanded" data-aos="fade-up" data-aos-delay="300">
+                    <h3 class="service-title">Investor & Grant Research</h3>
+                    <p class="service-description">
+                        Strategic research to identify the right funding sources for your venture. We research 
+                        and qualify VCs, corporate investors, family offices, and strategic partners who have 
+                        demonstrated interest in your sector, stage, and geography. We also identify relevant 
+                        government grants, climate funds, and innovation prizes. Our research goes beyond simple 
+                        lists—we provide insights on investment thesis, portfolio fit, check sizes, and decision-making 
+                        processes to help you prioritize and tailor your outreach for maximum success.
+                    </p>
+                </div>
+                
+                <div class="service-card-expanded" data-aos="fade-up" data-aos-delay="400">
+                    <h3 class="service-title">Client Research</h3>
+                    <p class="service-description">
+                        Deep customer analysis to validate product-market fit and inform strategic decisions. 
+                        We conduct primary and secondary research to understand target customer segments, their 
+                        pain points, buying behaviors, and willingness to pay. Our research includes competitive 
+                        alternative analysis, customer journey mapping, and value proposition testing. We help 
+                        you identify early adopters, understand decision-making units in enterprise sales, and 
+                        develop customer acquisition strategies. Our work provides the customer insights needed 
+                        to refine your product roadmap and go-to-market strategy.
+                    </p>
+                </div>
+                
+                <div class="service-card-expanded" data-aos="fade-up" data-aos-delay="500">
+                    <h3 class="service-title">Go-to-Market Strategy</h3>
+                    <p class="service-description">
+                        Data-driven strategies that translate market insights into actionable plans for customer 
+                        acquisition and growth. We help you define target customer segments, prioritize beachhead 
+                        markets, select optimal sales channels, and develop pricing strategies. Our GTM strategies 
+                        include customer acquisition cost analysis, lifetime value modeling, and sales process 
+                        design. We understand the unique challenges of climate tech GTM including longer sales 
+                        cycles, regulatory considerations, and the importance of strategic pilots and partnerships.
+                    </p>
+                </div>
+                
+                <div class="service-card-expanded" data-aos="fade-up" data-aos-delay="600">
+                    <h3 class="service-title">Pitch Deck Creation & Review</h3>
+                    <p class="service-description">
+                        Develop investor-grade pitch decks that tell your story compellingly and withstand due 
+                        diligence scrutiny. We create decks from scratch or refine existing presentations, ensuring 
+                        they follow best practices in structure, narrative flow, and data visualization. Our decks 
+                        are backed by rigorous analysis and tailored to your specific investor audience—whether 
+                        pre-seed angels, Series A VCs, or corporate investors. We provide detailed speaker notes 
+                        and help you prepare for common investor questions. Our deep understanding of what climate 
+                        tech investors look for gives you a competitive edge.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Ready to Work Together?</h2>
+                <p class="cta-description">
+                    Let's discuss how we can support your venture with strategic guidance that accelerates growth.
+                </p>
+                <a href="contact.html" class="btn btn-primary btn-large">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">ROUGEMONT</div>
+                    <p class="footer-tagline">Growth Advisory for Climate Tech</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <a href="index.html">Home</a>
+                        <a href="team.html">Our Team</a>
+                        <a href="track-record.html">Track Record</a>
+                        <a href="how-we-help.html">How We Help</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Rougemont Advisory. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
