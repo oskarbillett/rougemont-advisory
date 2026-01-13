@@ -22,17 +22,22 @@
             <div class="nav-logo">
                 <a href="index.html">ROUGEMONT</a>
             </div>
-            <div class="nav-links">
-                <a href="index.html">Home</a>
-                <a href="team.html">Our Team</a>
-                <a href="track-record.html" class="active">Track Record</a>
-                <a href="how-we-help.html">How We Help</a>
-                <a href="contact.html" class="nav-cta">Contact</a>
+            <div class="nav-hamburger" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
-            <div class="nav-mobile-toggle" id="navToggle">
-                <span></span>
-                <span></span>
-                <span></span>
+            <div class="nav-menu-overlay" id="navMenu">
+                <div class="nav-menu-content">
+                    <button class="nav-close" id="navClose">&times;</button>
+                    <div class="nav-menu-links">
+                        <a href="index.html">Home</a>
+                        <a href="team.html">Our Team</a>
+                        <a href="track-record.html" class="active">Track Record</a>
+                        <a href="how-we-help.html">How We Help</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </div>
             </div>
         </div>
     </nav>
@@ -59,25 +64,61 @@
 
     <!-- Clients Grid Section -->
     <section class="section clients-section">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Our Clients</h2>
-                <p class="section-subtitle">
-                    We partner with climate tech pioneers transforming their industries
-                </p>
-            </div>
-            <div class="clients-grid">
-                <div class="client-card">
-                    <div class="client-card-content">
-                        <h3 class="client-name">NurtureField</h3>
-                        <p class="client-description">
+        <div class="container-wide">
+            <div class="clients-grid-hover">
+                <div class="client-card-hover">
+                    <div class="client-card-front">
+                        <div class="client-logo-area">
+                            <h2 class="client-company-name">NurtureField</h2>
+                        </div>
+                        <p class="client-tagline">Smart Agriculture with IoT: Irrigation Optimization and Water Saving</p>
+                        <div class="client-meta">
+                            <span class="client-date">Jan 2025</span>
+                            <span class="client-location">UK</span>
+                        </div>
+                    </div>
+                    <div class="client-card-back">
+                        <h3 class="client-detail-title">About NurtureField</h3>
+                        <p class="client-detail-text">
                             Smart Agriculture with IoT: Irrigation Optimization and Water Saving. 
                             Save up to 40% on water and 30% on energy with IoT sensors. Monitor soil moisture, 
                             temperature, and environmental conditions in real time to optimize irrigation in your vineyards.
                         </p>
-                        <a href="https://nurturefield.com/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
-                            More Info
+                        <h4 class="client-detail-subtitle">Transaction summary</h4>
+                        <p class="client-detail-text">
+                            Rougemont Advisory provided comprehensive strategic support including market analysis, 
+                            financial modeling, and investor research.
+                        </p>
+                        <a href="https://nurturefield.com/" target="_blank" rel="noopener noreferrer" class="client-more-btn">
+                            More info
                         </a>
+                    </div>
+                </div>
+                
+                <!-- Placeholder cards for future clients -->
+                <div class="client-card-hover client-card-placeholder">
+                    <div class="client-card-front">
+                        <div class="client-logo-area">
+                            <h2 class="client-company-name">Coming Soon</h2>
+                        </div>
+                        <p class="client-tagline">More clients to be announced</p>
+                        <div class="client-meta">
+                            <span class="client-date">2025</span>
+                            <span class="client-location">TBD</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="client-card-hover client-card-placeholder">
+                    <div class="client-card-front">
+                        <div class="client-logo-area">
+                            <h2 class="client-company-name">Coming Soon</h2>
+                        </div>
+                        <p class="client-tagline">More clients to be announced</p>
+                        <div class="client-meta">
+                            <span class="client-date">2025</span>
+                            <span class="client-location">TBD</span>
+                        </div>
                     </div>
                 </div>
             </div>
